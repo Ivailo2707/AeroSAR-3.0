@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BL-M8812EU2pretty")(type "KiCad")(uri "${KIPRJMOD}/BL-M8812EU2pretty.pretty")(options "")(descr ""))
+  (lib (name "BL-M8812EU2")(type "KiCad")(uri "${KIPRJMOD}/BL-M8812EU2.pretty")(options "")(descr ""))
+)
