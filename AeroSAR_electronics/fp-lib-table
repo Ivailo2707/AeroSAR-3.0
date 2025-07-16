@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "BL-M8812EU2pretty")(type "KiCad")(uri "${KIPRJMOD}/BL-M8812EU2pretty.pretty")(options "")(descr ""))
   (lib (name "BL-M8812EU2")(type "KiCad")(uri "${KIPRJMOD}/BL-M8812EU2.pretty")(options "")(descr ""))
+  (lib (name "Flight_Controller_Top")(type "KiCad")(uri "${KIPRJMOD}/Flight_Controller_Top.pretty")(options "")(descr ""))
 )
