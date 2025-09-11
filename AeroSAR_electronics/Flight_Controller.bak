@@ -513,7 +513,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "FC-TOP"
-			(at 51.816 -104.902 0)
+			(at 53.086 -103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,8 +557,8 @@
 		)
 		(symbol "top_0_1"
 			(rectangle
-				(start 22.86 0)
-				(end 87.63 -92.075)
+				(start 22.86 1.27)
+				(end 87.63 -91.44)
 				(stroke
 					(width 0)
 					(type default)
@@ -1002,7 +1002,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -94.615 90)
+				(at 25.4 -93.98 90)
 				(length 2.54)
 				(name "Vsw"
 					(effects
@@ -1020,7 +1020,7 @@
 				)
 			)
 			(pin power_out line
-				(at 27.94 -94.615 90)
+				(at 27.94 -93.98 90)
 				(length 2.54)
 				(name "9V"
 					(effects
@@ -1038,7 +1038,7 @@
 				)
 			)
 			(pin power_out line
-				(at 30.48 -94.615 90)
+				(at 30.48 -93.98 90)
 				(length 2.54)
 				(name "9V"
 					(effects
@@ -1056,7 +1056,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 2.54 270)
+				(at 33.02 3.81 270)
 				(length 2.54)
 				(name "Rts7"
 					(effects
@@ -1074,7 +1074,7 @@
 				)
 			)
 			(pin power_out line
-				(at 34.29 -94.615 90)
+				(at 34.29 -93.98 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1092,7 +1092,7 @@
 				)
 			)
 			(pin input line
-				(at 35.56 2.54 270)
+				(at 35.56 3.81 270)
 				(length 2.54)
 				(name "Cts7"
 					(effects
@@ -1110,7 +1110,7 @@
 				)
 			)
 			(pin power_out line
-				(at 36.83 -94.615 90)
+				(at 36.83 -93.98 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1128,7 +1128,7 @@
 				)
 			)
 			(pin power_out line
-				(at 39.37 -94.615 90)
+				(at 39.37 -93.98 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1146,7 +1146,7 @@
 				)
 			)
 			(pin output line
-				(at 44.45 -94.615 90)
+				(at 44.45 -93.98 90)
 				(length 2.54)
 				(name "VTx"
 					(effects
@@ -1164,7 +1164,7 @@
 				)
 			)
 			(pin input line
-				(at 46.99 -94.615 90)
+				(at 46.99 -93.98 90)
 				(length 2.54)
 				(name "C2"
 					(effects
@@ -1182,7 +1182,7 @@
 				)
 			)
 			(pin input line
-				(at 49.53 -94.615 90)
+				(at 49.53 -93.98 90)
 				(length 2.54)
 				(name "C1"
 					(effects
@@ -1200,7 +1200,7 @@
 				)
 			)
 			(pin power_out line
-				(at 50.8 2.54 270)
+				(at 50.8 3.81 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1218,7 +1218,7 @@
 				)
 			)
 			(pin power_out line
-				(at 53.34 2.54 270)
+				(at 53.34 3.81 270)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -1236,7 +1236,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 2.54 270)
+				(at 55.88 3.81 270)
 				(length 2.54)
 				(name "AirS"
 					(effects
@@ -1254,7 +1254,7 @@
 				)
 			)
 			(pin power_out line
-				(at 58.42 -94.615 90)
+				(at 58.42 -93.98 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1272,7 +1272,7 @@
 				)
 			)
 			(pin power_out line
-				(at 60.96 -94.615 90)
+				(at 60.96 -93.98 90)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -1290,7 +1290,7 @@
 				)
 			)
 			(pin output line
-				(at 63.5 -94.615 90)
+				(at 63.5 -93.98 90)
 				(length 2.54)
 				(name "LED"
 					(effects
@@ -1308,7 +1308,7 @@
 				)
 			)
 			(pin input line
-				(at 67.31 2.54 270)
+				(at 67.31 3.81 270)
 				(length 2.54)
 				(name "VB2"
 					(effects
@@ -1326,7 +1326,7 @@
 				)
 			)
 			(pin power_out line
-				(at 68.58 -94.615 90)
+				(at 68.58 -93.98 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1344,7 +1344,7 @@
 				)
 			)
 			(pin input line
-				(at 69.85 2.54 270)
+				(at 69.85 3.81 270)
 				(length 2.54)
 				(name "CU2"
 					(effects
@@ -1362,7 +1362,7 @@
 				)
 			)
 			(pin power_out line
-				(at 71.12 -94.615 90)
+				(at 71.12 -93.98 90)
 				(length 2.54)
 				(name "Vx"
 					(effects
@@ -1380,7 +1380,7 @@
 				)
 			)
 			(pin output line
-				(at 73.66 -94.615 90)
+				(at 73.66 -93.98 90)
 				(length 2.54)
 				(name "S12"
 					(effects
@@ -1398,7 +1398,7 @@
 				)
 			)
 			(pin power_out line
-				(at 74.93 2.54 270)
+				(at 74.93 3.81 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1416,7 +1416,7 @@
 				)
 			)
 			(pin power_in line
-				(at 77.47 2.54 270)
+				(at 77.47 3.81 270)
 				(length 2.54)
 				(name "Vx"
 					(effects
@@ -1434,7 +1434,7 @@
 				)
 			)
 			(pin power_out line
-				(at 78.74 -94.615 90)
+				(at 78.74 -93.98 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1452,7 +1452,7 @@
 				)
 			)
 			(pin input line
-				(at 80.01 2.54 270)
+				(at 80.01 3.81 270)
 				(length 2.54)
 				(name "Vbat"
 					(effects
@@ -1470,7 +1470,7 @@
 				)
 			)
 			(pin power_out line
-				(at 81.28 -94.615 90)
+				(at 81.28 -93.98 90)
 				(length 2.54)
 				(name "Vx"
 					(effects
@@ -1488,7 +1488,7 @@
 				)
 			)
 			(pin input line
-				(at 82.55 2.54 270)
+				(at 82.55 3.81 270)
 				(length 2.54)
 				(name "Curr"
 					(effects
@@ -1506,7 +1506,7 @@
 				)
 			)
 			(pin output line
-				(at 83.82 -94.615 90)
+				(at 83.82 -93.98 90)
 				(length 2.54)
 				(name "S11"
 					(effects
