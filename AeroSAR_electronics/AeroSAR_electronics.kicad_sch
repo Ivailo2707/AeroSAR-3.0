@@ -4269,12 +4269,6 @@
 		(uuid "04505a66-9e4b-44f2-a3a4-30850868b16b")
 	)
 	(junction
-		(at 148.59 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "099b9998-0468-4294-bcaa-1bdf9f69f49f")
-	)
-	(junction
 		(at 67.31 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4321,12 +4315,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ca696ca-2e69-4dd1-aa8f-84ceef5f05a0")
-	)
-	(junction
-		(at 248.92 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3be60d6-7e2b-41df-a11d-6ad8001d837f")
 	)
 	(junction
 		(at 69.85 184.15)
@@ -4908,6 +4896,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 184.15) (xy 158.75 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e640fc1-6517-4ef1-a909-bc4c0e5eb6a0")
+	)
+	(wire
+		(pts
 			(xy 186.69 146.05) (xy 186.69 151.13)
 		)
 		(stroke
@@ -4988,7 +4986,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 186.69) (xy 148.59 184.15)
+			(xy 148.59 184.15) (xy 148.59 194.31)
 		)
 		(stroke
 			(width 0)
@@ -5148,13 +5146,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 77.47) (xy 248.92 77.47)
+			(xy 271.78 77.47) (xy 261.62 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8da1f10b-fb9d-45bc-a599-739de34ac9a2")
+		(uuid "8b92f7d8-d750-4082-bbbc-9e3941e7f558")
 	)
 	(wire
 		(pts
@@ -5165,16 +5163,6 @@
 			(type default)
 		)
 		(uuid "8f3a4910-4c3f-4227-9874-1b257b258321")
-	)
-	(wire
-		(pts
-			(xy 158.75 189.23) (xy 158.75 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91ca3d1e-4659-4ef0-9779-bc2dc3654a2f")
 	)
 	(wire
 		(pts
@@ -5245,6 +5233,16 @@
 			(type default)
 		)
 		(uuid "9b1bdac7-f432-4c3a-ace0-48102b747440")
+	)
+	(wire
+		(pts
+			(xy 241.3 77.47) (xy 251.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a8eb72-7b04-4d9d-9402-f880e5a09803")
 	)
 	(wire
 		(pts
@@ -5488,16 +5486,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 77.47) (xy 271.78 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd09c602-7daf-404f-8587-00a03546dc9b")
-	)
-	(wire
-		(pts
 			(xy 115.57 111.76) (xy 171.45 111.76)
 		)
 		(stroke
@@ -5678,16 +5666,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 189.23) (xy 148.59 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f832a3e2-025c-4707-bd03-f3c277a2c147")
-	)
-	(wire
-		(pts
 			(xy 179.07 137.16) (xy 179.07 151.13)
 		)
 		(stroke
@@ -5825,6 +5803,16 @@
 			(justify right bottom)
 		)
 		(uuid "640763e4-5752-4560-acbd-8fd0bf06a85c")
+	)
+	(label "GND"
+		(at 251.46 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e2e27ee-5159-41c5-9609-2bd6cffff984")
 	)
 	(label "Receiver"
 		(at 246.38 115.57 0)
@@ -5976,6 +5964,16 @@
 		)
 		(uuid "a4f066bb-8013-4474-8e52-590ea1d8e581")
 	)
+	(label "GND"
+		(at 261.62 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa118ece-d4b0-43ff-a9e4-68a50a191fec")
+	)
 	(label "NAV_COMPASS_CL"
 		(at 255.27 60.96 0)
 		(effects
@@ -6097,6 +6095,16 @@
 		(uuid "d9c0e12d-47fe-423b-b008-1830f8ee9d59")
 	)
 	(label "GND"
+		(at 158.75 194.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3b2ba02-cd21-4dde-83a6-cdf44f28396c")
+	)
+	(label "GND"
 		(at 140.97 73.66 180)
 		(effects
 			(font
@@ -6115,6 +6123,16 @@
 			(justify left bottom)
 		)
 		(uuid "ec7091a7-228d-4404-b26c-46989350b252")
+	)
+	(label "GND"
+		(at 148.59 194.31 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecab175a-a512-4507-a004-5bf67e369c7c")
 	)
 	(label "GND"
 		(at 115.57 118.11 180)
@@ -6752,72 +6770,6 @@
 			(project "AeroSAR_electronics"
 				(path "/da961784-12b1-4f58-8e7d-3aa55c43f0e3"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 148.59 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c4a10e7-3f06-4a7d-b3ea-68985d02be9f")
-		(property "Reference" "#PWR04"
-			(at 148.59 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND-WiFi"
-			(at 148.59 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dc6aa39-9d49-49ed-8dbd-46ce57fd5337")
-		)
-		(instances
-			(project ""
-				(path "/da961784-12b1-4f58-8e7d-3aa55c43f0e3"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7506,73 +7458,6 @@
 			(project ""
 				(path "/da961784-12b1-4f58-8e7d-3aa55c43f0e3"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 148.59 186.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "561a4924-2921-46be-b279-726c46bc9811")
-		(property "Reference" "#FLG03"
-			(at 146.685 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 144.78 186.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 148.59 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "318f2475-0cff-4708-b144-359665917b1c")
-		)
-		(instances
-			(project ""
-				(path "/da961784-12b1-4f58-8e7d-3aa55c43f0e3"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8980,138 +8865,6 @@
 			(project ""
 				(path "/da961784-12b1-4f58-8e7d-3aa55c43f0e3"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 248.92 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9eb5b838-4068-49da-9431-2ac7c687e49b")
-		(property "Reference" "#FLG02"
-			(at 248.92 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 248.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 248.92 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c8a1a40-c0a0-4e7f-a935-fdcd3fd6face")
-		)
-		(instances
-			(project ""
-				(path "/da961784-12b1-4f58-8e7d-3aa55c43f0e3"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4cd717a-d554-47ad-8cd7-337b1cbbd956")
-		(property "Reference" "#PWR014"
-			(at 158.75 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND-WiFi"
-			(at 158.75 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cc4412b-4329-49e6-b21d-bfc6ed58d148")
-		)
-		(instances
-			(project "AeroSAR_electronics"
-				(path "/da961784-12b1-4f58-8e7d-3aa55c43f0e3"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
